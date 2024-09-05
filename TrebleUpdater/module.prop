@@ -1,0 +1,6 @@
+id=treble-updater
+name=Treble Updater
+version=1.0
+versionCode=1
+author=NachtsternBuild
+description=Flash boot/vendor/system images to the inactive slot and switch slots with a UI.
