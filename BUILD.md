@@ -15,7 +15,7 @@ TrebleUpdater/
 ├── module.prop                  # the modul info
 └── system/
     ├── bin/
-    |    └── slot_changer.sh      # the main skript startet by the apk
+    |    └── treble_updater.sh      # the main skript startet by the apk
     └── priv-apps/
           └── treble_updater.apk
 ```
