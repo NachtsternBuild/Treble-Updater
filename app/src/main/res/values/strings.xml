@@ -1,0 +1,8 @@
+<resources>
+<string name="app_name">Treble Updater</string>
+<string-array name="image_types">
+    <item>boot.img</item>
+    <item>vendor.img</item>
+    <item>system.img</item>
+</string-array>
+</resources>
