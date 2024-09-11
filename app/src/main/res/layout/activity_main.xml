@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="395dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:text="Treble Updater" />
+
+    <TextView
+        android:id="@+id/selected_file_textview"
+        android:layout_width="371dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginBottom="-180dp"
+        android:text="Keine Datei ausgewählt" />
+
+    <Button
+        android:id="@+id/select_file_button"
+        android:layout_width="373dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/selected_file_textview"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="16dp"
+        android:text="Datei auswählen" />
+
+    <Spinner
+        android:id="@+id/image_type_spinner"
+        android:layout_width="372dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/select_file_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/image_types" />
+
+    <CheckBox
+        android:id="@+id/clear_user_data_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_type_spinner"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="16dp"
+        android:text="Nutzerdaten löschen" />
+
+    <Button
+        android:id="@+id/flash_button"
+        android:layout_width="385dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/clear_user_data_checkbox"
+        android:layout_marginTop="20dp"
+        android:text="Flashen" />
+
+</RelativeLayout>
